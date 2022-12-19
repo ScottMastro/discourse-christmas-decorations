@@ -35,8 +35,8 @@
     .posters > a.latest::after {
       content: "";
       position: absolute;
-      top: -14px;
-      left: -5px;
+      top: -5px;
+      left: 8px;
       width: 32px;
       height: 24px;
       background: url($hat) no-repeat center;
@@ -46,7 +46,7 @@
 
   .topic-list tr:nth-of-type(3n) .posters > a.latest::after {
     transform: scaleX(-1);
-    left: 2px;
+    left: 21px;
   }
 
   #current-user > a {
